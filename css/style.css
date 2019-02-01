@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+body{font-family: 'Montserrat', sans-serif;}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 30px;
+    color: #204f87;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar{
+	padding: 30px 0px;
+}
+
+/****************** banner section *********************/
+.banner {
+
+    background-image: url(../images/banner_blue.png);
+    background-size: cover;
+    position: relative;
+    }
+
+ .banner h1{
+ 	
+    font-size: 55px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 650;
+ }
+
+ .banner .row {
+
+    min-height: 550px;
+    align-items: center;
+
+}
+
+.banner-orange{
+	
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.banner-orange img {
+	
+    width: 50%;
+    height: 100%;
+}
+
+
+.arrow{
+	
+    bottom: 30px;
+    right: 50%;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+/****************** who we are Section *********************/
+.who-we-are{padding: 100px 0;}
+.header{}
+.header h1{font-size: 30px;font-weight: 550;color: #204f87;text-transform: uppercase;padding: 15px 0;}
+.header span{height: 7px;background: #f2622c;display: block;width: 75px;}
+p{color: #b0b0b1;font-size: 14px;}
+.who-we-are img{}
+
+
+
+/******************what we do Section *********************/
+
+.what-do{background: #f7f8f8;padding: 80px 0 120px;position: relative;}
+.what-do .header span{margin: auto; }
+.what-we-do{position: relative;}
+.what-we-do img{}
+.what-we-do h2{position: absolute;color: #fff;bottom: 50%;left: 50%;transform: translate(-50%,-50%);font-size: 18px;font-weight: 800;text-transform: uppercase;}
+.what-we-do a{position: absolute;bottom: 20px;left: 50%;transform: translateX(-50%);color: #fff;font-size: 20px;}
+.hvr::before{
+	content: "";
+    left: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+28,2d3083+63,1e5799+100&0+0,1+100 */
+background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(125,185,232,0.28) 28%, rgba(45,48,131,0.63) 63%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(125,185,232,0.28) 28%,rgba(45,48,131,0.63) 63%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(125,185,232,0.28) 28%,rgba(45,48,131,0.63) 63%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+	
+.what-we-do-bg{position: absolute;bottom: 0;right: 0;}
+.what-we-do-bg img{height: 610px;width: 850px;}
+
+
+
+/************************our attorneys section******************/
+.our-attorneys{padding: 150px 0 149px;
+background-image: url(../images/our-attorneys-bg.png);}
+.our-attorneys .header h1{color: #fff;}
+.attorney{position: relative;margin: 15px 0px;}
+.attorney img{}
+.attorney h2{position: absolute;font-size: 20px;color: #fff;bottom: 10%;left: 10%;font-weight: 700;text-transform: uppercase;}
+.see-more{color: #f2622c;font-size: 17px;font-weight: 600;text-transform: uppercase;}
+.our-attorneys .col-lg-4{margin: 20% 0%;}
+
+
+/**********************the languages*********************/
+.the-languages{padding: 150px 0px;}
+.the-languages .header span{margin: auto;}
+.the-languages h3{font-size: 24px;color: #28377e;font-weight: 900;text-transform: uppercase;}
+
+
+
+
+.contact-us{background: #28377e; padding: 70px 0 90px;}
+.contact-us span{margin: auto;}
+.contact-us .header h1{color: #ffffff}
+input {
+
+    color: #fff !important;
+    background-color: transparent !important;
+    border: 0px solid !important;
+        border-bottom-color: currentcolor;
+        border-bottom-style: solid;
+        border-bottom-width: 0px;
+    border-bottom: 1px solid #394fb4 !important;
+    border-radius: 0 !important;
+    text-transform: capitalize;}
+
+textarea{
+
+    color: #fff !important;
+    background-color: transparent !important;
+    border: 0px solid !important;
+        border-bottom-color: currentcolor;
+        border-bottom-style: solid;
+        border-bottom-width: 0px;
+    border-bottom: 1px solid #394fb4 !important;
+    border-radius: 0 !important;
+    text-transform: capitalize;}
+.btn{background: #f2622c!important;padding: 10px 40px!important;border-radius: 0!important;color: #fff!important;font-size: 18px!important;font-weight: 600!important;text-transform: uppercase!important;}
+
+
+
+/*************************footer***********************/
+.footer{background: #0c1234;padding: 50px 0px;}
+.footer p{color: #616ca8;margin: 0;}
+.social{}
+.social li{}
+.social li a{padding-left: 15px;color: #b1b8dd;display: block;font-size: 14px;}
